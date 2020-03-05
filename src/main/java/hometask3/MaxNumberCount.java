@@ -8,7 +8,7 @@ public class MaxNumberCount {
                 a:b >= c && b >= d?
                 c:c >= d?
                 d:d;
-        int count1= (a==max)?1:0;
+        int count1 = (a==max)?1:0;
         int count2 = (b==max)?1:0;
         int count3 = (c==max)?1:0;
         int count4 = (d==max)?1:0;
