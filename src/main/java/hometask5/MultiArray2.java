@@ -8,7 +8,6 @@ public class MultiArray2 {
                 matrix1[i][j] = j + 1;
             }
         }
-
         for (int[] array : matrix1) {
             for (int array4 : array) {
                 System.out.print(array4 + " ");
@@ -17,9 +16,7 @@ public class MultiArray2 {
         }
         System.out.println();
 
-
         int[][][] matrix2 = {{{1, 0, 3}, {1, 0, 3}, {1, 0, 3}}, {{1, 0, 3}, {1, 0, 3}, {1, 0, 3}}, {{1, 0, 3}, {1, 0, 3}, {1, 0, 3}}};
-
 
         for (int[][] array : matrix2) {
             for (int[] array2 : array) {
