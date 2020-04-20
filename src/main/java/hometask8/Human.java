@@ -5,12 +5,10 @@ public class Human {
     public String gender;
     public double age;
 
-
     public Human (String name, String gender, double age) {
         this.name = name;
         this.gender = gender;
         this.age = age;
-
     }
 
     public void breath () {
@@ -31,14 +29,11 @@ public class Human {
 
     public void eat () {
         System.out.print("All humans need to eat \n");
-
     }
 
     public void move () {
         System.out.print("All humans can move");
-
     }
-
     public void doSomething () {
         System.out.print("Humans need to perform some activities \n");
     }

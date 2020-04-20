@@ -9,13 +9,11 @@ public class Infant extends Human {
         this.age = age;
         this.teeth = teeth;
     }
-
     @Override
     public void move () {
         crawl(1);
         System.out.println(name + " is infant and can crawl, " +gender+" cannot walk or run yet");
     }
-
     @Override
     public void doSomething () {
         System.out.println(name + " is infant and " +gender+ " can only play");

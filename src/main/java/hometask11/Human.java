@@ -3,7 +3,6 @@ package hometask11;
 public class Human extends Creature implements HumanBehaviour {
     public Human() {
     }
-
     @Override
     public void breath() {
         if (age > 120) {
@@ -12,7 +11,6 @@ public class Human extends Creature implements HumanBehaviour {
             System.out.println("This human can breath");
         }
     }
-
     @Override
     public void speak() {
         if (age < 1) {
@@ -21,7 +19,6 @@ public class Human extends Creature implements HumanBehaviour {
             System.out.println("This human is adult and can speak well");
         }
     }
-
     @Override
     public void eat() {
         System.out.print("All humans need to eat \n");
@@ -31,7 +28,6 @@ public class Human extends Creature implements HumanBehaviour {
     public void move() {
         System.out.print("All humans can move");
     }
-
     @Override
     public void doSomething() {
         System.out.print("Humans need to perform some activities \n");

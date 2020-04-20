@@ -2,9 +2,7 @@ package hometask11;
 
 public class Main {
     public static void main (String[] args) {
-
         Human infant1 = new Infant("Bobby", "he", 0.5, 1);
-
         Human adult1 = new Adult("John", "he", 25, 32, "Doctor");
         infant1.breath();
         infant1.speak();
@@ -19,7 +17,5 @@ public class Main {
         adult1.eat();
         adult1.move();
         adult1.doSomething();
-
     }
-
 }
