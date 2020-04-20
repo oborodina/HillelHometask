@@ -1,7 +1,6 @@
 package hometask11;
 
 public class Adult extends Infant {
-
     public String occupation;
 
     public Adult(String name, String gender, double age, int teeth, String occupation) {
