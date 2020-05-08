@@ -6,7 +6,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-
         Human adult1 = new Adult("John", "male", 25, 32, "Doctor");
         Human adult2 = new Adult("Bob", "male", 21, 32, "Teacher");
         Human adult3 = new Adult("Tara", "female", 35, 32, "Engineer");
